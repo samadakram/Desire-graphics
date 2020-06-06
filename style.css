@@ -1,0 +1,267 @@
+
+.item{
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.item:hover{
+    
+    background-color: black;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 5px;
+
+
+}
+.fa-facebook{
+    color: orange !important;
+    font-size: 20px !important;
+    padding: 10px 10px 10px 120px !important;
+}
+.fa-instagram, .fa-twitter, .fa-whatsapp{
+    color: orange !important;
+    font-size: 20px !important;
+    padding: 10px !important;
+}
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    height: 500px;
+
+    /* <!-- **********************---------Offers Start--------******************* --> */
+
+}
+.portofolio, .quote, .sevices, .contactUs{
+    width: 260px;
+    height: 60px;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.fa-briefcase, .fa-mouse-pointer, .fa-signal, .fa-envelope{
+    color: orange !important;
+    font-size: 20px !important;
+    padding-right: 10px;
+
+}
+.offers{
+    margin: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+/* <!-- **********************---------Offers End--------******************* --> */
+
+/* <!-- **********************---------Web-section Start--------******************* --> */
+.affordable{
+    color: orange;
+    text-align: center;
+}
+.affordPara{
+    color: #ffffff;
+    text-align: center;
+}
+.eCommerce,.webDesign,.mobileApp,.socialMarketing{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+.eCommerce,.webDesign,.mobileApp,.socialMarketing>p{
+    text-align: center;
+}
+.fa-shopping-cart,.fa-code,.fa-mobile,.fa-arrow-up{
+    color: orange !important;
+    font-size: 40px !important;
+}
+.webSec{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+}
+.c1,.c2,.c3,.c4{
+    margin: 15px;
+}
+/* <!-- **********************---------Web-section End--------******************* --> */
+
+/* <!-- **********************---------Technologies Start--------******************* --> */
+.tech{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    color: black;
+}
+.techno{
+    color: orange;
+    text-align: center;
+    margin: 15px;
+}
+/* <!-- **********************---------Technologies End--------******************* --> */
+
+
+/* <!-- **********************---------Footer Start--------******************* --> */
+.footer{
+    color: #ffffff;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+/* <!-- **********************---------1st-Page End--------******************* --> */
+
+
+/* <!-- **********************---------2nd-Page Start--------******************* --> */
+
+/* <!-- **********************---------services Start--------******************* --> */
+.row0{
+    margin: 35px;
+    color: orange;
+    text-align: center;
+}
+.row1,.row2{
+    margin: 35px;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.logo1{
+    color: orange !important;
+}
+/* <!-- **********************---------Services End--------******************* --> */
+
+/* <!-- **********************---------3rd-Page Start--------******************* --> */
+
+/* <!-- **********************--------- Start--------******************* --> */
+.row3{
+    color: orange;
+    margin-top: 25px;
+    text-align: center;
+}
+/* <!-- **********************---------End--------******************* --> */
+
+/* <!-- **********************---------Paragraph Start--------******************* --> */
+.paraHead{
+    color: orange;
+    margin: 20px;
+    text-align: center;
+}
+.paraSpan{
+    color: orange;
+}
+.row4>p{
+    font-size: 1.1rem;
+}
+.skills{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 65px;
+    display: flex;
+    
+    align-items: center;
+    border: 1px solid lightgrey;
+}
+.fa-circle-o-notch{
+    color: orange;
+    size: 20px;
+}
+.skills p{
+    color: black;
+    padding-left: 15px;
+}
+.row5,.row6,.row7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.row6,.row7{
+    margin-top: 25px;
+}
+.lastHead{
+    padding-left: 50px;
+    margin-top: 30px;
+}
+/* <!-- **********************---------Paragraph End--------******************* --> */
+
+/* <!-- **********************---------Web-development Page End--------******************* --> */
+
+/* <!-- **********************---------About-us page Start --------******************* --> */
+
+/* <!-- **********************---------Vision-Mission Start--------******************* --> */
+.vision,.mission{
+    width: 400px;
+    height: 220px;
+    padding-top: 20px;
+}
+.row8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* <!-- **********************---------Vision-Mission End--------******************* --> */
+
+/* <!-- **********************---------Reason Start--------******************* --> */
+.reasons{
+    margin-top: 20px;
+}
+.fa-umbrella,.fa-server,.fa-database,.fa-volume-control-phone,.fa-file-pdf-o{
+    color: black;
+    font-size: 70px !important;
+    margin-bottom: 30px;
+    
+}
+.row9{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.umbrella,.proSer,.experience,.communication,.companyProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* <!-- **********************---------Reason End--------******************* --> */
+
+/* <!-- **********************---------About-us page End --------******************* --> */
+
+/* <!-- **********************---------Contact Page Start --------******************* --> */
+
+/* <!-- **********************---------contacts div Start--------******************* --> */
+
+.fa-map-marker,.fa-phone1,.fa-envelope-o{
+    /* color: orange; */
+    font-size: 45px !important;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1x solid orange;
+    padding:10px;    
+}
+.row10{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* <!-- **********************---------contacts div End--------******************* --> */
+.fa-arrow-up1{
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+}
+/* <!-- **********************---------Contact Page End --------******************* --> */
